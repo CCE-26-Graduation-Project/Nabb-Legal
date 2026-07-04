@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Foraj — Privacy Policy</title>
+<meta name="description" content="Privacy Policy for the Foraj product search and price comparison app.">
+<style>
+  :root{
+    --accent:#A45336; --accent-deep:#6D3620;
+    --text:#1c2b33; --muted:#5b6b74;
+    --bg:#faf8f6; --panel:#ffffff; --border:#e6ded9; --th:#f2ebe7;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --accent:#e0906b; --accent-deep:#efb493;
+      --text:#e8eef2; --muted:#9fb0b9;
+      --bg:#0f1a20; --panel:#16232b; --border:#27373f; --th:#1b2a33;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.65; -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:740px; margin:0 auto; padding:56px 24px 96px}
+  header.head{border-bottom:1px solid var(--border); padding-bottom:24px; margin-bottom:8px}
+  .brand{font-size:13px; letter-spacing:.16em; text-transform:uppercase; color:var(--accent); font-weight:700; margin:0}
+  h1{font-size:32px; line-height:1.2; letter-spacing:-.02em; margin:8px 0 14px}
+  .dates{color:var(--muted); font-size:14px; margin:0}
+  .dates strong{color:var(--text); font-weight:600}
+  h2{font-size:21px; letter-spacing:-.01em; margin:40px 0 12px}
+  h3{font-size:16px; color:var(--accent-deep); margin:24px 0 8px}
+  p{margin:0 0 16px}
+  ul{margin:0 0 16px; padding-left:22px}
+  li{margin:0 0 8px}
+  li::marker{color:var(--accent)}
+  strong{font-weight:650}
+  a{color:var(--accent)}
+  .table-scroll{overflow-x:auto; margin:0 0 20px}
+  table{width:100%; border-collapse:collapse; font-size:15px; min-width:460px}
+  th,td{text-align:left; padding:10px 13px; border:1px solid var(--border); vertical-align:top}
+  th{background:var(--th); font-weight:650}
+  hr{border:none; border-top:1px solid var(--border); margin:44px 0 22px}
+  .contact{background:var(--panel); border:1px solid var(--border); border-radius:12px; padding:16px 20px; margin:0 0 20px}
+  .contact a{font-weight:600}
+  .muted{color:var(--muted); font-size:14px; font-style:italic}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header class="head">
+    <p class="brand">Foraj</p>
+    <h1>Privacy Policy</h1>
+    <p class="dates"><strong>Effective Date:</strong> July 4, 2026 &nbsp;·&nbsp; <strong>Last Updated:</strong> July 4, 2026</p>
+  </header>
+
+  <h2>1. Introduction</h2>
+  <p>Foraj (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;) is an intelligent product matching and price comparison application. This Privacy Policy explains how we collect, use, disclose, and protect your personal information when you use the Foraj mobile application (&ldquo;App&rdquo;).</p>
+  <p>By using Foraj, you agree to the collection and use of information in accordance with this policy.</p>
+
+  <h2>2. Information We Collect</h2>
+  <h3>2.1 Information You Provide</h3>
+  <ul>
+    <li><strong>Account Information:</strong> When you register, we collect your email address and a password (stored as a secure hash — we never store plaintext passwords).</li>
+    <li><strong>Search Queries:</strong> Text descriptions you type into the search bar.</li>
+    <li><strong>Uploaded Images:</strong> Images you upload to perform image-based product searches. These images are processed to generate an embedding vector and are not stored permanently.</li>
+  </ul>
+  <h3>2.2 Information Collected Automatically</h3>
+  <ul>
+    <li><strong>Search History:</strong> A record of your past text search queries, stored to power the &ldquo;recent searches&rdquo; and autocomplete features in the search bar.</li>
+    <li><strong>Product Interactions:</strong> When you tap on a product, we record which product was clicked, the timestamp, and (if you are signed in) your account identifier. This data is used solely to calculate trending products shown on the home screen.</li>
+    <li><strong>Favourites:</strong> The list of products you save to your favourites, associated with your account.</li>
+    <li><strong>IP Address:</strong> Your IP address is used for rate limiting on the search endpoint to ensure fair access for all users. It is not stored in a user profile or linked to your account.</li>
+  </ul>
+  <h3>2.3 Information We Do NOT Collect</h3>
+  <ul>
+    <li>We do not collect payment or billing information. All purchases are completed on the vendor&rsquo;s own website.</li>
+    <li>We do not collect your device&rsquo;s precise GPS location.</li>
+    <li>We do not collect contacts, photos from your photo library, or any data unrelated to product search.</li>
+    <li>We do not use any third-party advertising SDKs.</li>
+    <li>We do not track you across other apps or websites.</li>
+  </ul>
+
+  <h2>3. How We Use Your Information</h2>
+  <div class="table-scroll">
+    <table>
+      <thead>
+        <tr><th>Purpose</th><th>Data Used</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Authenticate your account and secure sessions</td><td>Email address, hashed password, JWT tokens</td></tr>
+        <tr><td>Perform product search</td><td>Search query text or uploaded image (image not retained after embedding)</td></tr>
+        <tr><td>Display recent searches and autocomplete suggestions</td><td>Search history</td></tr>
+        <tr><td>Display trending products on the home screen</td><td>Anonymised product click events</td></tr>
+        <tr><td>Save and retrieve your favourite products</td><td>Favourites list, account ID</td></tr>
+        <tr><td>Prevent abuse of the search service</td><td>IP address (rate limiting only)</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>We do not sell, rent, or trade your personal information to any third party.</p>
+
+  <h2>4. Data Sharing and Disclosure</h2>
+  <p>We do not share your personal information with third parties except in the following limited circumstances:</p>
+  <ul>
+    <li><strong>Cloud Infrastructure:</strong> Product and user data is stored on Microsoft Azure (Azure Database for PostgreSQL). Azure acts as a data processor and is contractually bound to protect your data.</li>
+    <li><strong>CLIP Inference Service:</strong> When you perform a search, your query text or image is forwarded to our Python CLIP microservice hosted on Azure App Service solely to generate an embedding vector. No query data is logged or retained by this service.</li>
+    <li><strong>Legal Requirements:</strong> We may disclose information if required to do so by law or in response to a valid legal process (e.g., a court order or government request).</li>
+    <li><strong>Business Transfers:</strong> In the event of a merger, acquisition, or sale of assets, user data may be transferred as part of that transaction. We will notify you before your data is subject to a different privacy policy.</li>
+  </ul>
+
+  <h2>5. Data Retention</h2>
+  <ul>
+    <li><strong>Account data</strong> is retained for as long as your account is active. You may request deletion of your account at any time (see Section 8).</li>
+    <li><strong>Search history</strong> is retained for up to 12 months and is capped at 50 entries per user.</li>
+    <li><strong>Product click events</strong> (trending data) are retained for up to 12 months to allow all trending time windows (daily, weekly, monthly, all-time) to be computed accurately.</li>
+    <li><strong>Uploaded images</strong> are not stored. They are processed in memory to produce an embedding vector and immediately discarded.</li>
+  </ul>
+
+  <h2>6. Data Security</h2>
+  <p>We implement industry-standard security measures to protect your information:</p>
+  <ul>
+    <li>Passwords are never stored in plaintext. Authentication is handled by SuperTokens, which applies secure hashing.</li>
+    <li>All API communication is encrypted in transit using HTTPS/TLS.</li>
+    <li>Access tokens are short-lived JWTs signed with asymmetric keys. The signing keys are managed internally and are not exposed.</li>
+    <li>Database access is restricted to authorised backend services and is not publicly accessible.</li>
+  </ul>
+  <p>Despite these measures, no method of transmission over the internet or method of electronic storage is 100% secure. We cannot guarantee absolute security.</p>
+
+  <h2>7. Children&rsquo;s Privacy</h2>
+  <p>Foraj is not directed to children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe we have inadvertently collected information from a child, please contact us and we will delete it promptly.</p>
+
+  <h2>8. Your Rights and Choices</h2>
+  <p>Depending on your location, you may have the following rights regarding your personal data:</p>
+  <ul>
+    <li><strong>Access:</strong> Request a copy of the personal data we hold about you.</li>
+    <li><strong>Correction:</strong> Request that we correct inaccurate data.</li>
+    <li><strong>Deletion:</strong> Request that we delete your account and associated personal data.</li>
+    <li><strong>Export:</strong> Request your search history and favourites in a portable format.</li>
+    <li><strong>Opt-Out of History:</strong> You may clear your search history at any time from within the App.</li>
+  </ul>
+  <p>To exercise any of these rights, contact us at the email address in Section 10.</p>
+
+  <h2>9. Changes to This Privacy Policy</h2>
+  <p>We may update this Privacy Policy from time to time. When we do, we will update the &ldquo;Last Updated&rdquo; date at the top of this page. If the changes are material, we will notify you through the App or via email. Your continued use of the App after any changes constitutes your acceptance of the new policy.</p>
+
+  <h2>10. Contact Us</h2>
+  <p>If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us at:</p>
+  <div class="contact">
+    <strong>Email:</strong> <a href="mailto:mnazeih@icloud.com">mnazeih@icloud.com</a>
+  </div>
+
+  <hr>
+  <p class="muted">This privacy policy was prepared to comply with Apple App Store Review Guidelines and applicable data protection laws.</p>
+</main>
+</body>
+</html>
