@@ -1,13 +1,13 @@
-# Privacy Policy for Nabb
+# Privacy Policy for Foraj
 
 **Effective Date:** July 4, 2026
 **Last Updated:** July 4, 2026
 
 ## 1. Introduction
 
-Nabb ("we," "our," or "us") is an intelligent product matching and price comparison application. This Privacy Policy explains how we collect, use, disclose, and protect your personal information when you use the Nabb mobile application ("App").
+Foraj ("we," "our," or "us") is an intelligent product matching and price comparison application. This Privacy Policy explains how we collect, use, disclose, and protect your personal information when you use the Foraj mobile application ("App").
 
-By using Nabb, you agree to the collection and use of information in accordance with this policy.
+By using Foraj, you agree to the collection and use of information in accordance with this policy.
 
 ## 2. Information We Collect
 
@@ -74,7 +74,7 @@ Despite these measures, no method of transmission over the internet or method of
 
 ## 7. Children's Privacy
 
-Nabb is not directed to children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe we have inadvertently collected information from a child, please contact us and we will delete it promptly.
+Foraj is not directed to children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe we have inadvertently collected information from a child, please contact us and we will delete it promptly.
 
 ## 8. Your Rights and Choices
 

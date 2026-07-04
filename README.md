@@ -1,6 +1,6 @@
-# Nabb Legal Documents
+# Foraj Legal Documents
 
-This repository contains official legal documents for the **Nabb** application.
+This repository contains official legal documents for the **Foraj** application.
 
 ## Documents
 
@@ -17,5 +17,5 @@ For privacy-related questions or requests, contact: **mnazeih@icloud.com**
 
 ## Notice
 
-These documents are provided for transparency and compliance purposes for the Nabb app.  
+These documents are provided for transparency and compliance purposes for the Foraj app.  
 **All rights reserved.**
